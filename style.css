@@ -1,0 +1,38 @@
+.btn {
+  background: #ff6961;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff3b2e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background: #ff6961;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff3b2e;
+}
